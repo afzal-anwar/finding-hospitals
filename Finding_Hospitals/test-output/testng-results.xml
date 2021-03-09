@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="36" retried="1" total="55" passed="18">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="0" started-at="2021-03-09T23:30:19 IST" finished-at="2021-03-09T23:30:19 IST">
+    <groups>
+    </groups>
+  </suite> <!-- Suite -->
+  <suite name="FirefoxSuite" duration-ms="192201" started-at="2021-03-09T23:27:07 IST" finished-at="2021-03-09T23:30:19 IST">
+    <groups>
+      <group name="Automation">
+        <method signature="Testcases.fillTheForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:findinghospitals.testcases.Testcases@55ca8de8]" name="fillTheForm" class="findinghospitals.testcases.Testcases"/>
+        <method signature="Testcases.printHospitalList()[pri:0, instance:findinghospitals.testcases.Testcases@55ca8de8]" name="printHospitalList" class="findinghospitals.testcases.Testcases"/>
+        <method signature="Testcases.printTopCities()[pri:1, instance:findinghospitals.testcases.Testcases@55ca8de8]" name="printTopCities" class="findinghospitals.testcases.Testcases"/>
+      </group> <!-- Automation -->
+      <group name="Regression">
+        <method signature="Testcases.regression_1()[pri:0, instance:findinghospitals.testcases.Testcases@1f1c7bf6]" name="regression_1" class="findinghospitals.testcases.Testcases"/>
+        <method signature="Testcases.regression_2()[pri:1, instance:findinghospitals.testcases.Testcases@1f1c7bf6]" name="regression_2" class="findinghospitals.testcases.Testcases"/>
+        <method signature="Testcases.regression_3(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:findinghospitals.testcases.Testcases@1f1c7bf6]" name="regression_3" class="findinghospitals.testcases.Testcases"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="Testcases.checkCorporateWellnessPage()[pri:2, instance:findinghospitals.testcases.Testcases@1b083826]" name="checkCorporateWellnessPage" class="findinghospitals.testcases.Testcases"/>
+        <method signature="Testcases.checkHospitalPage()[pri:1, instance:findinghospitals.testcases.Testcases@1b083826]" name="checkHospitalPage" class="findinghospitals.testcases.Testcases"/>
+        <method signature="Testcases.checkLandingPage()[pri:0, instance:findinghospitals.testcases.Testcases@1b083826]" name="checkLandingPage" class="findinghospitals.testcases.Testcases"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="SmokeTest" duration-ms="53865" started-at="2021-03-09T23:27:07 IST" finished-at="2021-03-09T23:28:01 IST">
+      <class name="findinghospitals.testcases.Testcases">
+        <test-method status="PASS" signature="openTheBrowser(java.lang.String)[pri:0, instance:findinghospitals.testcases.Testcases@1b083826]" name="openTheBrowser" is-config="true" duration-ms="7683" started-at="2021-03-09T23:27:07 IST" finished-at="2021-03-09T23:27:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTheBrowser -->
+        <test-method status="PASS" signature="checkLandingPage()[pri:0, instance:findinghospitals.testcases.Testcases@1b083826]" name="checkLandingPage" duration-ms="6101" started-at="2021-03-09T23:27:14 IST" finished-at="2021-03-09T23:27:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLandingPage -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:findinghospitals.testcases.Testcases@1b083826]" name="quitDriver" is-config="true" duration-ms="1533" started-at="2021-03-09T23:27:21 IST" finished-at="2021-03-09T23:27:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="openTheBrowser(java.lang.String)[pri:0, instance:findinghospitals.testcases.Testcases@1b083826]" name="openTheBrowser" is-config="true" duration-ms="6497" started-at="2021-03-09T23:27:22 IST" finished-at="2021-03-09T23:27:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTheBrowser -->
+        <test-method status="PASS" signature="checkHospitalPage()[pri:1, instance:findinghospitals.testcases.Testcases@1b083826]" name="checkHospitalPage" duration-ms="12977" started-at="2021-03-09T23:27:29 IST" finished-at="2021-03-09T23:27:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHospitalPage -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:findinghospitals.testcases.Testcases@1b083826]" name="quitDriver" is-config="true" duration-ms="1819" started-at="2021-03-09T23:27:42 IST" finished-at="2021-03-09T23:27:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="openTheBrowser(java.lang.String)[pri:0, instance:findinghospitals.testcases.Testcases@1b083826]" name="openTheBrowser" is-config="true" duration-ms="6784" started-at="2021-03-09T23:27:43 IST" finished-at="2021-03-09T23:27:50 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTheBrowser -->
+        <test-method status="PASS" signature="checkCorporateWellnessPage()[pri:2, instance:findinghospitals.testcases.Testcases@1b083826]" name="checkCorporateWellnessPage" duration-ms="8596" started-at="2021-03-09T23:27:50 IST" finished-at="2021-03-09T23:27:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCorporateWellnessPage -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:findinghospitals.testcases.Testcases@1b083826]" name="quitDriver" is-config="true" duration-ms="1775" started-at="2021-03-09T23:27:59 IST" finished-at="2021-03-09T23:28:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:findinghospitals.testcases.Testcases@1b083826]" name="flushReport" is-config="true" duration-ms="93" started-at="2021-03-09T23:28:01 IST" finished-at="2021-03-09T23:28:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- findinghospitals.testcases.Testcases -->
+    </test> <!-- SmokeTest -->
+    <test name="RegressionTest" duration-ms="59267" started-at="2021-03-09T23:28:01 IST" finished-at="2021-03-09T23:29:00 IST">
+      <class name="findinghospitals.testcases.Testcases">
+        <test-method status="PASS" signature="openTheBrowser(java.lang.String)[pri:0, instance:findinghospitals.testcases.Testcases@1f1c7bf6]" name="openTheBrowser" is-config="true" duration-ms="7842" started-at="2021-03-09T23:28:01 IST" finished-at="2021-03-09T23:28:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTheBrowser -->
+        <test-method status="PASS" signature="regression_1()[pri:0, instance:findinghospitals.testcases.Testcases@1f1c7bf6]" name="regression_1" duration-ms="17550" started-at="2021-03-09T23:28:08 IST" finished-at="2021-03-09T23:28:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regression_1 -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:findinghospitals.testcases.Testcases@1f1c7bf6]" name="quitDriver" is-config="true" duration-ms="1588" started-at="2021-03-09T23:28:26 IST" finished-at="2021-03-09T23:28:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="openTheBrowser(java.lang.String)[pri:0, instance:findinghospitals.testcases.Testcases@1f1c7bf6]" name="openTheBrowser" is-config="true" duration-ms="6386" started-at="2021-03-09T23:28:28 IST" finished-at="2021-03-09T23:28:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTheBrowser -->
+        <test-method status="PASS" signature="regression_2()[pri:1, instance:findinghospitals.testcases.Testcases@1f1c7bf6]" name="regression_2" duration-ms="7780" started-at="2021-03-09T23:28:34 IST" finished-at="2021-03-09T23:28:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regression_2 -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:findinghospitals.testcases.Testcases@1f1c7bf6]" name="quitDriver" is-config="true" duration-ms="2186" started-at="2021-03-09T23:28:42 IST" finished-at="2021-03-09T23:28:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="openTheBrowser(java.lang.String)[pri:0, instance:findinghospitals.testcases.Testcases@1f1c7bf6]" name="openTheBrowser" is-config="true" duration-ms="6651" started-at="2021-03-09T23:28:44 IST" finished-at="2021-03-09T23:28:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTheBrowser -->
+        <test-method status="PASS" signature="regression_3(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:findinghospitals.testcases.Testcases@1f1c7bf6]" name="regression_3" duration-ms="7406" started-at="2021-03-09T23:28:51 IST" data-provider="formData" finished-at="2021-03-09T23:28:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anuj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Eco Focus]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Anuj.76@hym.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8775442671]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Regression_
+Scenario:Valid 
+TestCase: Valid]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[No Alert Should Pop Up]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regression_3 -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:findinghospitals.testcases.Testcases@1f1c7bf6]" name="quitDriver" is-config="true" duration-ms="1744" started-at="2021-03-09T23:28:58 IST" finished-at="2021-03-09T23:29:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:findinghospitals.testcases.Testcases@1f1c7bf6]" name="flushReport" is-config="true" duration-ms="78" started-at="2021-03-09T23:29:00 IST" finished-at="2021-03-09T23:29:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- findinghospitals.testcases.Testcases -->
+    </test> <!-- RegressionTest -->
+    <test name="AutomationTest" duration-ms="79030" started-at="2021-03-09T23:29:00 IST" finished-at="2021-03-09T23:30:19 IST">
+      <class name="findinghospitals.testcases.Testcases">
+        <test-method status="PASS" signature="openTheBrowser(java.lang.String)[pri:0, instance:findinghospitals.testcases.Testcases@55ca8de8]" name="openTheBrowser" is-config="true" duration-ms="7294" started-at="2021-03-09T23:29:00 IST" finished-at="2021-03-09T23:29:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTheBrowser -->
+        <test-method status="PASS" signature="printHospitalList()[pri:0, instance:findinghospitals.testcases.Testcases@55ca8de8]" name="printHospitalList" duration-ms="19032" started-at="2021-03-09T23:29:07 IST" finished-at="2021-03-09T23:29:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printHospitalList -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:findinghospitals.testcases.Testcases@55ca8de8]" name="quitDriver" is-config="true" duration-ms="1491" started-at="2021-03-09T23:29:26 IST" finished-at="2021-03-09T23:29:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="openTheBrowser(java.lang.String)[pri:0, instance:findinghospitals.testcases.Testcases@55ca8de8]" name="openTheBrowser" is-config="true" duration-ms="6210" started-at="2021-03-09T23:29:28 IST" finished-at="2021-03-09T23:29:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTheBrowser -->
+        <test-method status="PASS" signature="printTopCities()[pri:1, instance:findinghospitals.testcases.Testcases@55ca8de8]" name="printTopCities" duration-ms="8532" started-at="2021-03-09T23:29:34 IST" finished-at="2021-03-09T23:29:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printTopCities -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:findinghospitals.testcases.Testcases@55ca8de8]" name="quitDriver" is-config="true" duration-ms="1755" started-at="2021-03-09T23:29:42 IST" finished-at="2021-03-09T23:29:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="openTheBrowser(java.lang.String)[pri:0, instance:findinghospitals.testcases.Testcases@55ca8de8]" name="openTheBrowser" is-config="true" duration-ms="6568" started-at="2021-03-09T23:29:44 IST" finished-at="2021-03-09T23:29:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTheBrowser -->
+        <test-method status="SKIP" signature="fillTheForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:findinghospitals.testcases.Testcases@55ca8de8]" name="fillTheForm" duration-ms="5687" retried="true" started-at="2021-03-09T23:29:51 IST" data-provider="formData" finished-at="2021-03-09T23:29:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anuj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Eco Focus]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Anuj.76@hym.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8775442671]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Regression_
+Scenario:Valid 
+TestCase: Valid]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[No Alert Should Pop Up]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Title not matching]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Title not matching
+at org.testng.Assert.fail(Assert.java:99)
+at findinghospitals.utilities.FoundationClass.reportFail(FoundationClass.java:242)
+at findinghospitals.utilities.FoundationClass.checkTitle(FoundationClass.java:54)
+at findinghospitals.testobjects.LandingPage.clickCorporateWellnessButton(LandingPage.java:139)
+at findinghospitals.testcases.Testcases.fillTheForm(Testcases.java:125)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1213)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillTheForm -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:findinghospitals.testcases.Testcases@55ca8de8]" name="quitDriver" is-config="true" duration-ms="2020" started-at="2021-03-09T23:29:57 IST" finished-at="2021-03-09T23:29:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="openTheBrowser(java.lang.String)[pri:0, instance:findinghospitals.testcases.Testcases@55ca8de8]" name="openTheBrowser" is-config="true" duration-ms="6811" started-at="2021-03-09T23:29:59 IST" finished-at="2021-03-09T23:30:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTheBrowser -->
+        <test-method status="PASS" signature="fillTheForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:findinghospitals.testcases.Testcases@55ca8de8]" name="fillTheForm" duration-ms="11638" started-at="2021-03-09T23:30:05 IST" data-provider="formData" finished-at="2021-03-09T23:30:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anuj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Eco Focus]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Anuj.76@hym.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8775442671]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Regression_
+Scenario:Valid 
+TestCase: Valid]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[No Alert Should Pop Up]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillTheForm -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:findinghospitals.testcases.Testcases@55ca8de8]" name="quitDriver" is-config="true" duration-ms="1718" started-at="2021-03-09T23:30:17 IST" finished-at="2021-03-09T23:30:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="flushExcelReport()[pri:0, instance:findinghospitals.testcases.Testcases@55ca8de8]" name="flushExcelReport" is-config="true" duration-ms="60" started-at="2021-03-09T23:30:19 IST" finished-at="2021-03-09T23:30:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushExcelReport -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:findinghospitals.testcases.Testcases@55ca8de8]" name="flushReport" is-config="true" duration-ms="98" started-at="2021-03-09T23:30:19 IST" finished-at="2021-03-09T23:30:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- findinghospitals.testcases.Testcases -->
+    </test> <!-- AutomationTest -->
+  </suite> <!-- FirefoxSuite -->
+  <suite name="ChromeSuite" duration-ms="136406" started-at="2021-03-09T23:24:50 IST" finished-at="2021-03-09T23:27:07 IST">
+    <groups>
+      <group name="Automation">
+        <method signature="Testcases.fillTheForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:findinghospitals.testcases.Testcases@35083305]" name="fillTheForm" class="findinghospitals.testcases.Testcases"/>
+        <method signature="Testcases.printHospitalList()[pri:0, instance:findinghospitals.testcases.Testcases@35083305]" name="printHospitalList" class="findinghospitals.testcases.Testcases"/>
+        <method signature="Testcases.printTopCities()[pri:1, instance:findinghospitals.testcases.Testcases@35083305]" name="printTopCities" class="findinghospitals.testcases.Testcases"/>
+      </group> <!-- Automation -->
+      <group name="Regression">
+        <method signature="Testcases.regression_1()[pri:0, instance:findinghospitals.testcases.Testcases@568bf312]" name="regression_1" class="findinghospitals.testcases.Testcases"/>
+        <method signature="Testcases.regression_2()[pri:1, instance:findinghospitals.testcases.Testcases@568bf312]" name="regression_2" class="findinghospitals.testcases.Testcases"/>
+        <method signature="Testcases.regression_3(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:findinghospitals.testcases.Testcases@568bf312]" name="regression_3" class="findinghospitals.testcases.Testcases"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="Testcases.checkCorporateWellnessPage()[pri:2, instance:findinghospitals.testcases.Testcases@c8e4bb0]" name="checkCorporateWellnessPage" class="findinghospitals.testcases.Testcases"/>
+        <method signature="Testcases.checkHospitalPage()[pri:1, instance:findinghospitals.testcases.Testcases@c8e4bb0]" name="checkHospitalPage" class="findinghospitals.testcases.Testcases"/>
+        <method signature="Testcases.checkLandingPage()[pri:0, instance:findinghospitals.testcases.Testcases@c8e4bb0]" name="checkLandingPage" class="findinghospitals.testcases.Testcases"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="SmokeTest" duration-ms="45810" started-at="2021-03-09T23:24:50 IST" finished-at="2021-03-09T23:25:36 IST">
+      <class name="findinghospitals.testcases.Testcases">
+        <test-method status="PASS" signature="openTheBrowser(java.lang.String)[pri:0, instance:findinghospitals.testcases.Testcases@c8e4bb0]" name="openTheBrowser" is-config="true" duration-ms="4253" started-at="2021-03-09T23:24:50 IST" finished-at="2021-03-09T23:24:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTheBrowser -->
+        <test-method status="PASS" signature="checkLandingPage()[pri:0, instance:findinghospitals.testcases.Testcases@c8e4bb0]" name="checkLandingPage" duration-ms="4573" started-at="2021-03-09T23:24:55 IST" finished-at="2021-03-09T23:24:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLandingPage -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:findinghospitals.testcases.Testcases@c8e4bb0]" name="quitDriver" is-config="true" duration-ms="1289" started-at="2021-03-09T23:24:59 IST" finished-at="2021-03-09T23:25:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="openTheBrowser(java.lang.String)[pri:0, instance:findinghospitals.testcases.Testcases@c8e4bb0]" name="openTheBrowser" is-config="true" duration-ms="2133" started-at="2021-03-09T23:25:01 IST" finished-at="2021-03-09T23:25:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTheBrowser -->
+        <test-method status="PASS" signature="checkHospitalPage()[pri:1, instance:findinghospitals.testcases.Testcases@c8e4bb0]" name="checkHospitalPage" duration-ms="21063" started-at="2021-03-09T23:25:03 IST" finished-at="2021-03-09T23:25:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHospitalPage -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:findinghospitals.testcases.Testcases@c8e4bb0]" name="quitDriver" is-config="true" duration-ms="694" started-at="2021-03-09T23:25:24 IST" finished-at="2021-03-09T23:25:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="openTheBrowser(java.lang.String)[pri:0, instance:findinghospitals.testcases.Testcases@c8e4bb0]" name="openTheBrowser" is-config="true" duration-ms="1855" started-at="2021-03-09T23:25:24 IST" finished-at="2021-03-09T23:25:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTheBrowser -->
+        <test-method status="PASS" signature="checkCorporateWellnessPage()[pri:2, instance:findinghospitals.testcases.Testcases@c8e4bb0]" name="checkCorporateWellnessPage" duration-ms="8017" started-at="2021-03-09T23:25:26 IST" finished-at="2021-03-09T23:25:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCorporateWellnessPage -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:findinghospitals.testcases.Testcases@c8e4bb0]" name="quitDriver" is-config="true" duration-ms="1292" started-at="2021-03-09T23:25:34 IST" finished-at="2021-03-09T23:25:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:findinghospitals.testcases.Testcases@c8e4bb0]" name="flushReport" is-config="true" duration-ms="535" started-at="2021-03-09T23:25:36 IST" finished-at="2021-03-09T23:25:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- findinghospitals.testcases.Testcases -->
+    </test> <!-- SmokeTest -->
+    <test name="RegressionTest" duration-ms="41411" started-at="2021-03-09T23:25:36 IST" finished-at="2021-03-09T23:26:18 IST">
+      <class name="findinghospitals.testcases.Testcases">
+        <test-method status="PASS" signature="openTheBrowser(java.lang.String)[pri:0, instance:findinghospitals.testcases.Testcases@568bf312]" name="openTheBrowser" is-config="true" duration-ms="1984" started-at="2021-03-09T23:25:36 IST" finished-at="2021-03-09T23:25:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTheBrowser -->
+        <test-method status="PASS" signature="regression_1()[pri:0, instance:findinghospitals.testcases.Testcases@568bf312]" name="regression_1" duration-ms="12246" started-at="2021-03-09T23:25:38 IST" finished-at="2021-03-09T23:25:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regression_1 -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:findinghospitals.testcases.Testcases@568bf312]" name="quitDriver" is-config="true" duration-ms="1270" started-at="2021-03-09T23:25:50 IST" finished-at="2021-03-09T23:25:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="openTheBrowser(java.lang.String)[pri:0, instance:findinghospitals.testcases.Testcases@568bf312]" name="openTheBrowser" is-config="true" duration-ms="1961" started-at="2021-03-09T23:25:52 IST" finished-at="2021-03-09T23:25:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTheBrowser -->
+        <test-method status="PASS" signature="regression_2()[pri:1, instance:findinghospitals.testcases.Testcases@568bf312]" name="regression_2" duration-ms="10455" started-at="2021-03-09T23:25:54 IST" finished-at="2021-03-09T23:26:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regression_2 -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:findinghospitals.testcases.Testcases@568bf312]" name="quitDriver" is-config="true" duration-ms="977" started-at="2021-03-09T23:26:04 IST" finished-at="2021-03-09T23:26:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="openTheBrowser(java.lang.String)[pri:0, instance:findinghospitals.testcases.Testcases@568bf312]" name="openTheBrowser" is-config="true" duration-ms="2226" started-at="2021-03-09T23:26:06 IST" finished-at="2021-03-09T23:26:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTheBrowser -->
+        <test-method status="PASS" signature="regression_3(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:findinghospitals.testcases.Testcases@568bf312]" name="regression_3" duration-ms="8436" started-at="2021-03-09T23:26:08 IST" data-provider="formData" finished-at="2021-03-09T23:26:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anuj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Eco Focus]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Anuj.76@hym.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8775442671]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Regression_
+Scenario:Valid 
+TestCase: Valid]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[No Alert Should Pop Up]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regression_3 -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:findinghospitals.testcases.Testcases@568bf312]" name="quitDriver" is-config="true" duration-ms="856" started-at="2021-03-09T23:26:17 IST" finished-at="2021-03-09T23:26:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:findinghospitals.testcases.Testcases@568bf312]" name="flushReport" is-config="true" duration-ms="110" started-at="2021-03-09T23:26:17 IST" finished-at="2021-03-09T23:26:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- findinghospitals.testcases.Testcases -->
+    </test> <!-- RegressionTest -->
+    <test name="AutomationTest" duration-ms="49142" started-at="2021-03-09T23:26:18 IST" finished-at="2021-03-09T23:27:07 IST">
+      <class name="findinghospitals.testcases.Testcases">
+        <test-method status="PASS" signature="openTheBrowser(java.lang.String)[pri:0, instance:findinghospitals.testcases.Testcases@35083305]" name="openTheBrowser" is-config="true" duration-ms="1663" started-at="2021-03-09T23:26:18 IST" finished-at="2021-03-09T23:26:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTheBrowser -->
+        <test-method status="PASS" signature="printHospitalList()[pri:0, instance:findinghospitals.testcases.Testcases@35083305]" name="printHospitalList" duration-ms="17755" started-at="2021-03-09T23:26:19 IST" finished-at="2021-03-09T23:26:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printHospitalList -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:findinghospitals.testcases.Testcases@35083305]" name="quitDriver" is-config="true" duration-ms="845" started-at="2021-03-09T23:26:37 IST" finished-at="2021-03-09T23:26:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="openTheBrowser(java.lang.String)[pri:0, instance:findinghospitals.testcases.Testcases@35083305]" name="openTheBrowser" is-config="true" duration-ms="1888" started-at="2021-03-09T23:26:38 IST" finished-at="2021-03-09T23:26:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTheBrowser -->
+        <test-method status="PASS" signature="printTopCities()[pri:1, instance:findinghospitals.testcases.Testcases@35083305]" name="printTopCities" duration-ms="9554" started-at="2021-03-09T23:26:40 IST" finished-at="2021-03-09T23:26:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printTopCities -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:findinghospitals.testcases.Testcases@35083305]" name="quitDriver" is-config="true" duration-ms="1588" started-at="2021-03-09T23:26:49 IST" finished-at="2021-03-09T23:26:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="openTheBrowser(java.lang.String)[pri:0, instance:findinghospitals.testcases.Testcases@35083305]" name="openTheBrowser" is-config="true" duration-ms="1961" started-at="2021-03-09T23:26:51 IST" finished-at="2021-03-09T23:26:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTheBrowser -->
+        <test-method status="PASS" signature="fillTheForm(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:findinghospitals.testcases.Testcases@35083305]" name="fillTheForm" duration-ms="12161" started-at="2021-03-09T23:26:53 IST" data-provider="formData" finished-at="2021-03-09T23:27:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anuj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Eco Focus]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Anuj.76@hym.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8775442671]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Regression_
+Scenario:Valid 
+TestCase: Valid]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[No Alert Should Pop Up]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillTheForm -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:findinghospitals.testcases.Testcases@35083305]" name="quitDriver" is-config="true" duration-ms="1268" started-at="2021-03-09T23:27:05 IST" finished-at="2021-03-09T23:27:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="flushExcelReport()[pri:0, instance:findinghospitals.testcases.Testcases@35083305]" name="flushExcelReport" is-config="true" duration-ms="292" started-at="2021-03-09T23:27:06 IST" finished-at="2021-03-09T23:27:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushExcelReport -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:findinghospitals.testcases.Testcases@35083305]" name="flushReport" is-config="true" duration-ms="93" started-at="2021-03-09T23:27:07 IST" finished-at="2021-03-09T23:27:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- findinghospitals.testcases.Testcases -->
+    </test> <!-- AutomationTest -->
+  </suite> <!-- ChromeSuite -->
+</testng-results>

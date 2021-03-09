@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FirefoxSuite]">
+  <listeners>
+    <listener class-name="findinghospitals.utilities.Transformation"/>
+  </listeners>
+  <test thread-count="5" name="AutomationTest(failed)">
+    <parameter name="browserCode" value="2"/>
+    <groups>
+      <run>
+        <include name="Automation"/>
+        <exclude name="Smoke"/>
+        <exclude name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="findinghospitals.testcases.Testcases">
+        <methods>
+          <include name="flushReport"/>
+          <include name="flushExcelReport"/>
+          <include name="fillTheForm" invocation-numbers="0"/>
+          <include name="openTheBrowser"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- findinghospitals.testcases.Testcases -->
+    </classes>
+  </test> <!-- AutomationTest(failed) -->
+</suite> <!-- Failed suite [FirefoxSuite] -->

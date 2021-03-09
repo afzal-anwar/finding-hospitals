@@ -1,0 +1,15 @@
+findinghospitals\testobjects\DiagnosticPage.class
+findinghospitals\utilities\ScreenShots.class
+findinghospitals\testobjects\InitializationClass.class
+findinghospitals\utilities\PropertiesFile.class
+findinghospitals\utilities\DriverClass.class
+findinghospitals\utilities\FoundationClass.class
+findinghospitals\testcases\Testcases.class
+findinghospitals\testobjects\LandingPage.class
+findinghospitals\utilities\ExcelUtils.class
+findinghospitals\testobjects\HospitalListPage.class
+findinghospitals\testobjects\CorporateWellnessPage.class
+findinghospitals\utilities\Retry.class
+findinghospitals\utilities\Transformation.class
+findinghospitals\utilities\DataProv.class
+findinghospitals\utilities\Reporter.class

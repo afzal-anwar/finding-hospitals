@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ChromeGridSuite]">
+  <listeners>
+    <listener class-name="findinghospitals.utilities.Transformation"/>
+  </listeners>
+  <test thread-count="5" name="SmokeTest(failed)">
+    <parameter name="browserCode" value="4"/>
+    <groups>
+      <run>
+        <include name="Smoke"/>
+        <exclude name="Automation"/>
+        <exclude name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="findinghospitals.testcases.Testcases">
+        <methods>
+          <include name="checkHospitalPage"/>
+          <include name="setBrowserName"/>
+          <include name="flushReport"/>
+          <include name="checkCorporateWellnessPage"/>
+          <include name="checkLandingPage"/>
+          <include name="openTheBrowser"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- findinghospitals.testcases.Testcases -->
+    </classes>
+  </test> <!-- SmokeTest(failed) -->
+  <test thread-count="5" name="RegressionTest(failed)">
+    <parameter name="browserCode" value="4"/>
+    <groups>
+      <run>
+        <include name="Regression"/>
+        <exclude name="Smoke"/>
+        <exclude name="Automation"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="findinghospitals.testcases.Testcases">
+        <methods>
+          <include name="regression_1"/>
+          <include name="setBrowserName"/>
+          <include name="flushReport"/>
+          <include name="regression_3"/>
+          <include name="regression_2"/>
+          <include name="openTheBrowser"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- findinghospitals.testcases.Testcases -->
+    </classes>
+  </test> <!-- RegressionTest(failed) -->
+  <test thread-count="5" name="AutomationTest(failed)">
+    <parameter name="browserCode" value="4"/>
+    <groups>
+      <run>
+        <include name="Automation"/>
+        <exclude name="Smoke"/>
+        <exclude name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="findinghospitals.testcases.Testcases">
+        <methods>
+          <include name="setBrowserName"/>
+          <include name="flushReport"/>
+          <include name="printHospitalList"/>
+          <include name="flushExcelReport"/>
+          <include name="fillTheForm"/>
+          <include name="printTopCities"/>
+          <include name="openTheBrowser"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- findinghospitals.testcases.Testcases -->
+    </classes>
+  </test> <!-- AutomationTest(failed) -->
+</suite> <!-- Failed suite [ChromeGridSuite] -->

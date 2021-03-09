@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="EdgeSuite">
+	<listeners>
+		<listener
+			class-name="findinghospitals.utilities.Transformation"></listener>
+	</listeners>
+	<test name="SmokeTest">
+		<parameter name="browserCode" value="3" />
+		<groups>
+			<run>
+				<include name="Smoke" />
+				<exclude name="Automation" />
+				<exclude name="Regression" />
+			</run>
+		</groups>
+		<classes>
+			<class name="findinghospitals.testcases.Testcases" />
+		</classes>
+	</test>
+	<test name="RegressionTest">
+		<parameter name="browserCode" value="3"></parameter>
+		<groups>
+			<run>
+				<exclude name="Smoke" />
+				<exclude name="Automation" />
+				<include name="Regression" />
+			</run>
+		</groups>
+		<classes>
+			<class name="findinghospitals.testcases.Testcases" />
+		</classes>
+	</test>
+	<test name="AutomationTest">
+		<parameter name="browserCode" value="3"></parameter>
+		<groups>
+			<run>
+				<exclude name="Smoke" />
+				<include name="Automation" />
+				<exclude name="Regression" />
+			</run>
+		</groups>
+		<classes>
+			<class name="findinghospitals.testcases.Testcases" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->

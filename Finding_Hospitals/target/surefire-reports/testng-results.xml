@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="12" total="18" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="0" started-at="2021-03-09T22:51:35 IST" finished-at="2021-03-09T22:51:35 IST">
+    <groups>
+    </groups>
+  </suite> <!-- Suite -->
+  <suite name="FirefoxSuite" duration-ms="48926" started-at="2021-03-09T22:50:46 IST" finished-at="2021-03-09T22:51:34 IST">
+    <groups>
+      <group name="Smoke">
+        <method signature="Testcases.checkCorporateWellnessPage()[pri:2, instance:findinghospitals.testcases.Testcases@68bbe345]" name="checkCorporateWellnessPage" class="findinghospitals.testcases.Testcases"/>
+        <method signature="Testcases.checkHospitalPage()[pri:1, instance:findinghospitals.testcases.Testcases@68bbe345]" name="checkHospitalPage" class="findinghospitals.testcases.Testcases"/>
+        <method signature="Testcases.checkLandingPage()[pri:0, instance:findinghospitals.testcases.Testcases@68bbe345]" name="checkLandingPage" class="findinghospitals.testcases.Testcases"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="SmokeTest" duration-ms="48926" started-at="2021-03-09T22:50:46 IST" finished-at="2021-03-09T22:51:34 IST">
+      <class name="findinghospitals.testcases.Testcases">
+        <test-method status="PASS" signature="setBrowserName(java.lang.String)[pri:0, instance:findinghospitals.testcases.Testcases@68bbe345]" name="setBrowserName" is-config="true" duration-ms="3" started-at="2021-03-09T22:50:46 IST" finished-at="2021-03-09T22:50:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowserName -->
+        <test-method status="PASS" signature="openTheBrowser(java.lang.String)[pri:0, instance:findinghospitals.testcases.Testcases@68bbe345]" name="openTheBrowser" is-config="true" duration-ms="7525" started-at="2021-03-09T22:50:46 IST" finished-at="2021-03-09T22:50:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTheBrowser -->
+        <test-method status="PASS" signature="checkLandingPage()[pri:0, instance:findinghospitals.testcases.Testcases@68bbe345]" name="checkLandingPage" duration-ms="4793" started-at="2021-03-09T22:50:53 IST" finished-at="2021-03-09T22:50:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLandingPage -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:findinghospitals.testcases.Testcases@68bbe345]" name="quitDriver" is-config="true" duration-ms="1672" started-at="2021-03-09T22:50:58 IST" finished-at="2021-03-09T22:51:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="openTheBrowser(java.lang.String)[pri:0, instance:findinghospitals.testcases.Testcases@68bbe345]" name="openTheBrowser" is-config="true" duration-ms="6378" started-at="2021-03-09T22:51:00 IST" finished-at="2021-03-09T22:51:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTheBrowser -->
+        <test-method status="PASS" signature="checkHospitalPage()[pri:1, instance:findinghospitals.testcases.Testcases@68bbe345]" name="checkHospitalPage" duration-ms="12601" started-at="2021-03-09T22:51:06 IST" finished-at="2021-03-09T22:51:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHospitalPage -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:findinghospitals.testcases.Testcases@68bbe345]" name="quitDriver" is-config="true" duration-ms="1268" started-at="2021-03-09T22:51:19 IST" finished-at="2021-03-09T22:51:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="openTheBrowser(java.lang.String)[pri:0, instance:findinghospitals.testcases.Testcases@68bbe345]" name="openTheBrowser" is-config="true" duration-ms="6414" started-at="2021-03-09T22:51:20 IST" finished-at="2021-03-09T22:51:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTheBrowser -->
+        <test-method status="PASS" signature="checkCorporateWellnessPage()[pri:2, instance:findinghospitals.testcases.Testcases@68bbe345]" name="checkCorporateWellnessPage" duration-ms="6595" started-at="2021-03-09T22:51:26 IST" finished-at="2021-03-09T22:51:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCorporateWellnessPage -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:findinghospitals.testcases.Testcases@68bbe345]" name="quitDriver" is-config="true" duration-ms="1590" started-at="2021-03-09T22:51:33 IST" finished-at="2021-03-09T22:51:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:findinghospitals.testcases.Testcases@68bbe345]" name="flushReport" is-config="true" duration-ms="90" started-at="2021-03-09T22:51:34 IST" finished-at="2021-03-09T22:51:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- findinghospitals.testcases.Testcases -->
+    </test> <!-- SmokeTest -->
+  </suite> <!-- FirefoxSuite -->
+  <suite name="ChromeSuite" duration-ms="38298" started-at="2021-03-09T22:50:07 IST" finished-at="2021-03-09T22:50:46 IST">
+    <groups>
+      <group name="Smoke">
+        <method signature="Testcases.checkCorporateWellnessPage()[pri:2, instance:findinghospitals.testcases.Testcases@7fac631b]" name="checkCorporateWellnessPage" class="findinghospitals.testcases.Testcases"/>
+        <method signature="Testcases.checkHospitalPage()[pri:1, instance:findinghospitals.testcases.Testcases@7fac631b]" name="checkHospitalPage" class="findinghospitals.testcases.Testcases"/>
+        <method signature="Testcases.checkLandingPage()[pri:0, instance:findinghospitals.testcases.Testcases@7fac631b]" name="checkLandingPage" class="findinghospitals.testcases.Testcases"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="SmokeTest" duration-ms="38298" started-at="2021-03-09T22:50:07 IST" finished-at="2021-03-09T22:50:46 IST">
+      <class name="findinghospitals.testcases.Testcases">
+        <test-method status="PASS" signature="setBrowserName(java.lang.String)[pri:0, instance:findinghospitals.testcases.Testcases@7fac631b]" name="setBrowserName" is-config="true" duration-ms="252" started-at="2021-03-09T22:50:07 IST" finished-at="2021-03-09T22:50:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowserName -->
+        <test-method status="PASS" signature="openTheBrowser(java.lang.String)[pri:0, instance:findinghospitals.testcases.Testcases@7fac631b]" name="openTheBrowser" is-config="true" duration-ms="8155" started-at="2021-03-09T22:50:07 IST" finished-at="2021-03-09T22:50:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTheBrowser -->
+        <test-method status="PASS" signature="checkLandingPage()[pri:0, instance:findinghospitals.testcases.Testcases@7fac631b]" name="checkLandingPage" duration-ms="4203" started-at="2021-03-09T22:50:15 IST" finished-at="2021-03-09T22:50:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLandingPage -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:findinghospitals.testcases.Testcases@7fac631b]" name="quitDriver" is-config="true" duration-ms="1061" started-at="2021-03-09T22:50:20 IST" finished-at="2021-03-09T22:50:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="openTheBrowser(java.lang.String)[pri:0, instance:findinghospitals.testcases.Testcases@7fac631b]" name="openTheBrowser" is-config="true" duration-ms="1634" started-at="2021-03-09T22:50:21 IST" finished-at="2021-03-09T22:50:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTheBrowser -->
+        <test-method status="PASS" signature="checkHospitalPage()[pri:1, instance:findinghospitals.testcases.Testcases@7fac631b]" name="checkHospitalPage" duration-ms="11163" started-at="2021-03-09T22:50:22 IST" finished-at="2021-03-09T22:50:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHospitalPage -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:findinghospitals.testcases.Testcases@7fac631b]" name="quitDriver" is-config="true" duration-ms="1298" started-at="2021-03-09T22:50:34 IST" finished-at="2021-03-09T22:50:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="openTheBrowser(java.lang.String)[pri:0, instance:findinghospitals.testcases.Testcases@7fac631b]" name="openTheBrowser" is-config="true" duration-ms="1801" started-at="2021-03-09T22:50:35 IST" finished-at="2021-03-09T22:50:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTheBrowser -->
+        <test-method status="PASS" signature="checkCorporateWellnessPage()[pri:2, instance:findinghospitals.testcases.Testcases@7fac631b]" name="checkCorporateWellnessPage" duration-ms="7643" started-at="2021-03-09T22:50:37 IST" finished-at="2021-03-09T22:50:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCorporateWellnessPage -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:findinghospitals.testcases.Testcases@7fac631b]" name="quitDriver" is-config="true" duration-ms="747" started-at="2021-03-09T22:50:44 IST" finished-at="2021-03-09T22:50:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:findinghospitals.testcases.Testcases@7fac631b]" name="flushReport" is-config="true" duration-ms="527" started-at="2021-03-09T22:50:45 IST" finished-at="2021-03-09T22:50:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- findinghospitals.testcases.Testcases -->
+    </test> <!-- SmokeTest -->
+  </suite> <!-- ChromeSuite -->
+</testng-results>

@@ -20,8 +20,8 @@ public class Reporter {
         String currentDate = date.toString().replaceAll(":", "_").replaceAll(" ", "_");
 			
         if(report==null) {
-			String reportName = currentDate+ ".html";
-			ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") + "\\ExtentReports\\" + reportName);
+			String reportName = "ExtentReport"+ ".html";
+			ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") + "\\test-output\\" + reportName);
 			report =  new ExtentReports();
 			report.attachReporter(htmlReporter);
 			
